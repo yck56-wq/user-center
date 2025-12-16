@@ -27,6 +27,7 @@ import static com.yck.usercenter.constant.UserConstant.USER_LOGIN_STATE;
  */
 @RestController
 @RequestMapping("/user")
+@CrossOrigin(origins = {"http://localhost:5173"}, allowCredentials = "true")
 public class UserController {
 
     @Resource
@@ -140,3 +141,4 @@ public class UserController {
     }
 
 }
+
