@@ -87,7 +87,7 @@
 ## 快速开始
 
 ### 前置准备
-- JDK 1.8+
+- JDK 1.8
 - Maven（或 Gradle，根据后端工程设置）
 - Node.js（建议 v14+）与 npm
 - MySQL 8.x（创建用于项目的数据库，例如 `user_center`）
@@ -98,13 +98,13 @@
 
 2. 准备配置（参考下方“配置说明”部分）
 
-### 前端启动（React 版）
+### 前端启动（React）
 1. 进入 React 前端目录（user-center-frontend-react）
 2. 安装依赖：npm install
 3. 启动开发服务器：npm run start:dev
 4. 构建生产包：npm run build
 
-### 前端启动（Vue 版）
+### 前端启动（Vue）
 1. 进入 Vue 前端目录（user-center-frontend-vue）
 2. 安装依赖：npm install
 3. 启动开发服务器：npm run dev
