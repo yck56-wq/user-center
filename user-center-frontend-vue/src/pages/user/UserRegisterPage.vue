@@ -95,7 +95,7 @@ const handleSubmit = async (values: any) => {
   const res = await userRegister(values)
   if (res.data.code === 20000 && res.data.data) {
     message.success('注册成功')
-    router.push({
+    await router.push({
       path: '/user/login',
       replace: true,
     })
