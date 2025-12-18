@@ -1,10 +1,10 @@
 <template>
   <div id="globalHeader">
     <a-row :wrap="false">
-      <a-col flex="200px">
+      <a-col flex="300px">
         <div class="title-bar">
           <img class="logo" src="../assets/logo.svg" alt="logo" />
-          <div class="title">用户中心</div>
+          <div class="title">云帆一体化用户服务平台</div>
         </div>
       </a-col>
       <a-col flex="auto">
