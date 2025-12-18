@@ -121,11 +121,10 @@
 - Node.js（建议 v14+）与 npm
 - MySQL 8.x（创建用于项目的数据库，例如 `user_center`）
 
-1. 在 MySQL 中创建数据库：
+ 在 MySQL 中创建数据库：
    - 创建数据库：CREATE DATABASE user_center CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
    - 复制后端代码user-center-backend中的sql目录下的user.sql文件执行到数据库
 
-2. 准备配置（参考下方“配置说明”部分）
 
 ### 前端启动（React）
 1. 进入 React 前端目录（user-center-frontend-react）
